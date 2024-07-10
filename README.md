@@ -26,7 +26,9 @@ cat /home/sas/.ssh/id_rsa.pub
 ```
 
 5. Add this key to your Github
-    - On [github.com](github.com), go to **Settings**
+    - On [github.com](https://github.com/), click on your profile picture (top right) and select **Settings**
+
+    ![Alt text](img/profile_settings.png)
     - Click on **SSH and GPG keys**
 
     ![Alt text](img/settings.png)
