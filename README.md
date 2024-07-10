@@ -15,13 +15,17 @@
 
 ![Alt text](img/new_workbench.png)
 
-3. Copy the public ssh key present in `/home/sas/.ssh`, you can use this command:
+3. Open a **New Terminal**.
+
+![Alt text](img/open_terminal.png)
+
+4. Copy the public ssh key present in `/home/sas/.ssh`, you can type this command in the terminal:
 
 ```bash
 cat /home/sas/.ssh/id_rsa.pub
 ```
 
-4. Add this key to your Github
+5. Add this key to your Github
     - On [github.com](github.com), go to **Settings**
     - Click on **SSH and GPG keys**
 
@@ -34,7 +38,7 @@ cat /home/sas/.ssh/id_rsa.pub
     ![Alt text](img/add_ssh_key.png)
     - Click on **Add SSH key**
 
-5. Clone your repository using the SSH link
+6. Clone your repository using the provided SSH link
 ![Alt text](img/clone_ssh.png)
 ```bash
 git clone git@github.com:YOUR-USERNAME/YOUR-REPOSITORY.git
